@@ -13,7 +13,7 @@
 ## 內容
 **Blind 75**
 * Array
-    * [Two Sum](1. Two Sum/solution.py)
+    * [Two Sum](solutions/1. Two Sum/solution.py)
 
 
 
