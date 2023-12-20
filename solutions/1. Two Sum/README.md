@@ -39,6 +39,13 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 ```
 
+Constraints:
+
+* `2 <= nums.length <= 10^4`
+* `-10^9 <= nums[i] <= 10^9`
+* `-10^9 <= target <= 10^9`
+* **Only one valid answer exists.**
+
 ## 解題思路
 
 首先要思考的是，是否需要掃描整個陣列才能找到答案。如果答案是肯定的，則至少需要一個 For Loop 來解決，這意味著時間複雜度至少是 O(N)。
