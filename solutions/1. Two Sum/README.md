@@ -47,7 +47,7 @@ Constraints:
 * `-10^9 <= target <= 10^9`
 * **Only one valid answer exists.**
 
-## 解題思路
+## 思路
 
 首先要思考的是，是否需要掃描整個陣列才能找到答案。如果答案是肯定的，則至少需要一個 For Loop 來解決，這意味著時間複雜度至少是 O(N)。
 
