@@ -12,8 +12,9 @@
 
 ## 內容
 **Blind 75**
-* Array
-    * [Two Sum](solutions/1.%C2%A0Two%20Sum/)
+* Arrays & Hashing
+    * [(E) 1. Two Sum](solutions/1.%C2%A0Two%20Sum/)
+    * [(E) 242. Valid Anagram](solutions/242.%20Valid%20Anagram)
 
 
 > 更多題目和分類將持續更新中。
