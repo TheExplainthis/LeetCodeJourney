@@ -13,7 +13,7 @@
 ## 內容
 **Blind 75**
 * Array
-    * [Two Sum](solutions/1.%20Two%20Sum/solution.py)
+    * [Two Sum](solutions/1.%20Two%20Sum/)
 
 
 > 更多題目和分類將持續更新中。
