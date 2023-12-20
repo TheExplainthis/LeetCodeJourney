@@ -19,6 +19,8 @@ GPT 4 翻譯：
 
 你可以以任何順序返回答案。
 
+----
+
 Example 1
 ```
 Input: nums = [2,7,11,15], target = 9
