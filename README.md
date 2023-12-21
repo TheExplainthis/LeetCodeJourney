@@ -17,7 +17,7 @@
     * [(E) 242. Valid Anagram](solutions/242.%20Valid%20Anagram)
     * [(M) 49. Group Anagrams](solutions/49.%C2%A0Group%20Anagrams)
     * [(M) 128. Longest Consecutive Sequence](solutions/128.%20Longest%20Consecutive%20Sequence)
-
+    * [(M) 347. Top K Frequent Elements](solutions/347.%20Top%20K%20Frequent%20Elements)
 
 > 更多題目和分類將持續更新中。
 
