@@ -13,7 +13,7 @@
 ## 內容
 **Blind 75**
 * Arrays & Hashing
-    * [(E) 1. Two Sum](solutions/1.%C2%A0Two%20Sum/)
+    * [(E) 1. Two Sum](solutions/1.%20Two%20Sum)
     * [(E) 242. Valid Anagram](solutions/242.%20Valid%20Anagram)
     * [(M) 49. Group Anagrams](solutions/49.%C2%A0Group%20Anagrams)
     * [(M) 128. Longest Consecutive Sequence](solutions/128.%20Longest%20Consecutive%20Sequence)
