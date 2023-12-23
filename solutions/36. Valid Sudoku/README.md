@@ -146,7 +146,7 @@ Constraints:
                 boxes[idx] |= (1 << bit_flag)
                 ...
         ```
-        一但發現重複就 return False
+        一但發現重複就 `return False`
 
 * 複雜度
     * 時間複雜度: O(N^2)
@@ -156,7 +156,7 @@ Constraints:
 
 ## 本題學習
 
-1. 若要比對是否存在固定的數字 1 ~ N
+1. 若要比對是否存在的數字 1 ~ N：
 * 長度 N 固定
     * 長度超出 int 範圍：可以用陣列
     * 長度不超出 int 範圍：可以用 Bitmask
