@@ -85,6 +85,7 @@ Constraints:
 
 * 步驟
     1. 初始化：
+
         ```python
         N = 9
         rows = [set() for _ in range(N)]
@@ -93,6 +94,7 @@ Constraints:
         ```
     掃過整格 9 * 9 的格子。
     2. 邊掃的時候，邊放入三個地方：該列、該行、該九宮格，如下：
+
         ```python
         for r in range(N):
             for c in range(N):
@@ -125,7 +127,8 @@ Constraints:
 用這樣的方式儲存，可以達到同樣的效果，判斷是否重複只要判斷該對應位置是否為 1 就可以知道 (val & 對應位置的值)
 
 * 步驟
-    1. 初始化
+    1. 初始化：
+
         ```python
         N = 9
         rows = [0]
@@ -133,6 +136,7 @@ Constraints:
         boxes = [0]
         ```
     2. 邊掃的時候，邊放入三個地方：該列、該行、該九宮格，如下：
+    
         ```python
         for r in range(N):
             for c in range(N):
