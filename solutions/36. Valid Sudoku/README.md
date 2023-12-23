@@ -91,9 +91,8 @@ Constraints:
         cols = [set() for _ in range(N)]
         boxes = [set() for _ in range(N)]
         ```
-        掃過整格 9 * 9 的格子。
 
-    2. 邊掃的時候，邊放入三個地方：該列、該行、該九宮格，如下：
+    2. 掃過整格 9 * 9 的格子，邊掃的時候，邊放入三個地方：該列、該行、該九宮格，如下：
         ```python
         for r in range(N):
             for c in range(N):
@@ -133,7 +132,7 @@ Constraints:
         cols = [0]
         boxes = [0]
         ```
-    2. 邊掃的時候，邊放入三個地方：該列、該行、該九宮格，如下：
+    2. 掃過整格 9 * 9 的格子，邊掃的時候，邊放入三個地方：該列、該行、該九宮格，如下：
         ```python
         for r in range(N):
             for c in range(N):
