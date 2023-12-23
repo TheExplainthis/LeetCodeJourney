@@ -85,25 +85,24 @@ Constraints:
 
 * 步驟
     1. 初始化：
-
         ```python
         N = 9
         rows = [set() for _ in range(N)]
         cols = [set() for _ in range(N)]
         boxes = [set() for _ in range(N)]
         ```
-    掃過整格 9 * 9 的格子。
-    2. 邊掃的時候，邊放入三個地方：該列、該行、該九宮格，如下：
+        掃過整格 9 * 9 的格子。
 
+    2. 邊掃的時候，邊放入三個地方：該列、該行、該九宮格，如下：
         ```python
         for r in range(N):
             for c in range(N):
                 ...
-                rows[r].add(val)
-                cols[c].add(val)
+                rows[r].add(number)
+                cols[c].add(number)
 
                 idx = (r // 3) * 3 + c // 3
-                boxes[idx].add(val)
+                boxes[idx].add(number)
                 ...
         ```
         一但發現重複就 return False
@@ -128,7 +127,6 @@ Constraints:
 
 * 步驟
     1. 初始化：
-
         ```python
         N = 9
         rows = [0]
@@ -136,18 +134,17 @@ Constraints:
         boxes = [0]
         ```
     2. 邊掃的時候，邊放入三個地方：該列、該行、該九宮格，如下：
-    
         ```python
         for r in range(N):
             for c in range(N):
                 ...
-                pos = int(board[r][c]) - 1
+                bit_flag = int(board[r][c]) - 1
 
-                rows[r] |= (1 << pos)
-                cols[c] |= (1 << pos)
+                rows[r] |= (1 << bit_flag)
+                cols[c] |= (1 << bit_flag)
 
                 idx = (r // 3) * 3 + c // 3
-                boxes[idx] |= (1 << pos)
+                boxes[idx] |= (1 << bit_flag)
                 ...
         ```
         一但發現重複就 return False
