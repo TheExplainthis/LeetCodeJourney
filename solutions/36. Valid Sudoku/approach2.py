@@ -11,11 +11,11 @@ class Solution:
 
         for row in range(BOARD_SIZE):
             for col in range(BOARD_SIZE):
-                if board[row][col] == ".":
+                number = board[row][col]
+                if number == ".":
                     continue
 
-                number = int(board[row][col]) - 1
-                bit_flag = 1 << number
+                bit_flag = 1 << int(number) - 1
 
                 box_index = (row // 3) * 3 + col // 3
                 if row_flags[row] & bit_flag or col_flags[col] & bit_flag or box_flags[box_index] & bit_flag:

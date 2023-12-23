@@ -11,9 +11,11 @@ class Solution:
 
         for row in range(BOARD_SIZE):
             for col in range(BOARD_SIZE):
+                
                 number = board[row][col]
                 if number == ".":
                     continue
+
                 box_index = (row // 3) * 3 + col // 3
                 if number in row_sets[row] or number in column_sets[col] or number in box_sets[box_index]:
                     return False
