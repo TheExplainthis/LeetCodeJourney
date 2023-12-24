@@ -115,7 +115,7 @@ right 如果這時候從尾巴往前掃的時候，順序會是數字是 10, 9, 
 right = 10, ans = left[9] 
 right = 9,  ans = left[8] * 10
 right = 8,  ans = left[7] * 10 * 9
-right = 7,  ans = left[7] * 10 * 9 * 8
+right = 7,  ans = left[6] * 10 * 9 * 8
 ...
 ```
 
