@@ -20,6 +20,7 @@
     * [(M) 128. Longest Consecutive Sequence](solutions/128.%20Longest%20Consecutive%20Sequence/)
     * [(M) 347. Top K Frequent Elements](solutions/347.%20Top%20K%20Frequent%20Elements/)
     * [(M) 238. Product of Array Except Self](solutions/238.%20Product%20of%20Array%20Except%20Self)
+    * [(M) 271. Encode and Decode Strings](solutions/271.%20Encode%20and%20Decode%20Strings)
     
 
 **NeetCode 150**
