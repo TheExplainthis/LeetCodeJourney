@@ -119,7 +119,7 @@ strs = ["Hello", "Wor/:ld"]
 "/:".join(strs)   # Hello/:Wor/:ld 
 ```
 
-所以要做的事情是，先將 strs 裡面的字串，如果出現特殊符號時就先轉意，如下：
+所以要做的事情是，先將 strs 裡面的字串，如果出現特殊符號時就先轉譯，如下：
 ```python
 strs = ["Hello", "Wor/:ld"]
 new_strs = ["Hello", "Wor//:ld"]
