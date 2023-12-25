@@ -108,7 +108,7 @@ Output: [""]
 
 這題實際上是在學這個概念 Escaping，方法 1 很有可能在文本當中有各式各樣的文字，包含特殊字元，因此可能會讓演算法失效，因此要想一個一定可行的方法，這邊可以參考目前計算機領域都在使用的方法，像是 python 會用 \\n 來表示換行，做法類似。
 
-Escaping 的概念在於，可以在 Encode 時，將看到的字符做「轉譯」，舉例來說：
+Escaping 的概念在於，可以在 Encode 時，將看到的字符做「轉義」，舉例來說：
 ```python
 strs = ["Hello", "World"]
 "/:".join(strs)   # Hello/:World
@@ -119,7 +119,7 @@ strs = ["Hello", "Wor/:ld"]
 "/:".join(strs)   # Hello/:Wor/:ld 
 ```
 
-所以要做的事情是，先將 strs 裡面的字串，如果出現特殊符號時就先轉譯，如下：
+所以要做的事情是，先將 strs 裡面的字串，如果出現特殊符號時就先轉義，如下：
 ```python
 strs = ["Hello", "Wor/:ld"]
 new_strs = ["Hello", "Wor//:ld"]
