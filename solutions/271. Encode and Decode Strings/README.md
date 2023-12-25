@@ -111,19 +111,19 @@ Output: [""]
 Escaping 的概念在於，可以在 Encode 時，將看到的字符做「轉譯」，舉例來說：
 ```python
 strs = ["Hello", "World"]
-"/:".join(strs)   // Hello/:World
+"/:".join(strs)   # Hello/:World
 ```
 但是當文字出現預設的分隔號時就會出錯，如下：
 ```python
 strs = ["Hello", "Wor/:ld"]
-"/:".join(strs)   // Hello/:Wor/:ld 
+"/:".join(strs)   # Hello/:Wor/:ld 
 ```
 
 所以要做的事情是，先將 strs 裡面的字串，如果出現特殊符號時就先轉意，如下：
 ```python
 strs = ["Hello", "Wor/:ld"]
 new_strs = ["Hello", "Wor//:ld"]
-"/:".join(strs)   // Hello/:Wor//:ld 
+"/:".join(strs)   # Hello/:Wor//:ld 
 ```
 所以如果 Decode 時看到 `/:` 就代表是分隔號，如果看到 `//:` 就代表原本的字串中有 `/:`。
 
