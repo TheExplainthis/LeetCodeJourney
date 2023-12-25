@@ -5,9 +5,11 @@
 原文 + GPT-4 翻譯：
 
 Design an algorithm to encode a list of strings to a string. The encoded string is then sent over the network and is decoded back to the original list of strings.
+
 設計一個演算法來將一串字串編碼成一個字串。這個編碼後的字串隨後透過網路傳送，並被解碼回原始的字串列表。
 
 Machine 1 (sender) has the function:
+
 機器 1（發送方）有以下函式：
 
 ```cpp
@@ -18,6 +20,7 @@ string encode(vector<string> strs) {
 ```
 
 Machine 2 (receiver) has the function:
+
 機器 2（接收方）有以下函式：
 
 ```cpp
@@ -28,6 +31,7 @@ vector<string> decode(string s) {
 ```
 
 So Machine 1 does:
+
 因此機器 1 執行：
 
 ```cpp
@@ -35,6 +39,7 @@ string encoded_string = encode(strs);
 ```
 
 and Machine 2 does:
+
 而機器 2 執行：
 
 ```cpp
@@ -42,12 +47,15 @@ vector<string> strs2 = decode(encoded_string);
 ```
 
 strs2 in Machine 2 should be the same as strs in Machine 1.
+
 機器 2 中的 strs2 應與機器 1 中的 strs 相同。
 
 Implement the encode and decode methods.
+
 請實作 encode 和 decode 方法。
 
 You are not allowed to solve the problem using any serialize methods (such as eval).
+
 你不可以使用任何序列化方法（如 eval）來解決這個問題。
 
 ----
