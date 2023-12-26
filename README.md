@@ -22,6 +22,8 @@
     * [(M) 238. Product of Array Except Self](solutions/238.%20Product%20of%20Array%20Except%20Self)
     * [(M) 271. Encode and Decode Strings](solutions/271.%20Encode%20and%20Decode%20Strings)
     
+* Two Pointers
+    * [(E) 125. Valid Palindrome](solitions/125.%20Valid%20Palindrome)
 
 **NeetCode 150**
 * Arrays & Hashing
