@@ -25,6 +25,7 @@
 * Two Pointers
     * [(E) 125. Valid Palindrome](solutions/125.%20Valid%20Palindrome/)
     * [(M) 11. Container With Most Water](solutions/11.%20Container%20With%20Most%20Water/)
+    * [(M) 15. 3Sum](solutions/15.%203Sum/)
 
 **NeetCode 150**
 * Arrays & Hashing
