@@ -72,7 +72,7 @@ Constraints:
     2. 移動指標
         - `left` 往後走，直到遇到數字或英文字
         - `right` 往前走，直到遇到數字或英文字
-    3. 比較 `left.lower()` 是否等於 `right.lower()`
+    3. 比較 `s[left].lower()` 是否等於 `s[right].lower()`
 
 * 複雜度
     * 時間複雜度: O(N)
