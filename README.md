@@ -23,7 +23,7 @@
     * [(M) 271. Encode and Decode Strings](solutions/271.%20Encode%20and%20Decode%20Strings)
     
 * Two Pointers
-    * [(E) 125. Valid Palindrome](solitions/125.%20Valid%20Palindrome/)
+    * [(E) 125. Valid Palindrome](solutions/125.%20Valid%20Palindrome/)
 
 **NeetCode 150**
 * Arrays & Hashing
