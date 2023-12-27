@@ -69,7 +69,6 @@ Constraints:
     * 空間複雜度: O(1)
 
 
----
 ## 延伸討論
 1. Sliding Window 的關鍵在於 slow 和 fast 指標該如何移動，就跟 Two Pointer 的 left 和 right 指標一樣。  
 2. 有沒有模板可以使用？ 網路上有提供兩種模板 ，但我不建議去使用，因為為了背模板，反而在看到新題目時會感到慌張。  
