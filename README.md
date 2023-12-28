@@ -30,6 +30,7 @@
 * Sliding Window
     * [(E) 121. Best Time to Buy and Sell Stock](solutions/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock/)
     * [(M) 3. Longest Substring Without Repeating Characters](solutions/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
+    * [(M) 424. Longest Repeating Character Replacement](solutions/424.%20Longest%20Repeating%20Character%20Replacement)
 
 **NeetCode 150**
 * Arrays & Hashing
