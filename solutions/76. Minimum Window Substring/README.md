@@ -69,7 +69,7 @@ Input: s = "ADOBECODEBANC", t = "ABC"
 
 一但發現包含了 `t` ，左邊端點就會開始嘗試往後面走，直到不合法為止，而以現在這個節點而言，左端點走一格後發現不包含 `t` 因此停下來。
 
-當 i = 5 ， A **DOBEC** ODEBANC 
+當 i = 5 ， A **DOBEC** ODEBANC  
 當 i = 6 ， A **DOBECO** DEBANC  
 當 i = 7 ， A **DOBECOD** EBANC  
 當 i = 8 ， A **DOBECODE** BANC  
