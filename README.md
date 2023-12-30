@@ -33,6 +33,9 @@
     * [(M) 424. Longest Repeating Character Replacement](solutions/424.%20Longest%20Repeating%20Character%20Replacement)
     * [(H) 76. Minimum Window Substring](solutions/76.%20Minimum%20Window%20Substring/)
 
+* Stack
+    * [(E) 20. Valid Parentheses](solutions/20.%20Valid%20Parentheses/)
+
 **NeetCode 150**
 * Arrays & Hashing
     * [(M) 36. Valid Sudoku](solutions/36.%20Valid%20Sudoku/)
