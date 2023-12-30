@@ -1,6 +1,7 @@
 import collections
 import math
 
+
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         target_freq = collections.Counter(t)

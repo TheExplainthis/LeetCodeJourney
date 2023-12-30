@@ -55,7 +55,7 @@ Constraints:
 
 ## 思路
 
-做過第 [3](../3.%20Longest%20Substring%20Without%20Repeating%20Characters/) 題和第 [424](../424.%20Longest%20Repeating%20Character%20Replacement/) 題的話，可能會覺得這題也有點像，這題暴力解一樣是找出所有的 Pair 並且找出來後去比較這個區間是否包含 `t`，最後把這些合法的 Pair 算出最短的路徑，複雜度一樣至少 O(N^2)，如果判斷「是否包含 `t`」這邊沒寫好的話，甚至可能到 O(N^3)。
+做過第 [3](../3.%20Longest%20Substring%20Without%20Repeating%20Characters/) 題和第 [424](../424.%20Longest%20Repeating%20Character%20Replacement/) 題的話，可能會覺得這題也有點像，這題暴力解一樣是找出所有的 Pair 並且找出來後去比較這個區間是否包含 `t`，最後把這些合法的 Pair 算出最短的字串，複雜度一樣至少 O(N^2)，如果判斷「是否包含 `t`」這邊沒寫好的話，甚至可能到 O(N^3)。
 
 這題一樣用演算法的思維來觀察題目：  
 Input: s = "ADOBECODEBANC", t = "ABC"  
