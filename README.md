@@ -36,6 +36,9 @@
 * Stack
     * [(E) 20. Valid Parentheses](solutions/20.%20Valid%20Parentheses/)
 
+* Binary Search
+    * [(M) 153. Find Minimum in Rotated Sorted Array](solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array/)
+
 **NeetCode 150**
 * Arrays & Hashing
     * [(M) 36. Valid Sudoku](solutions/36.%20Valid%20Sudoku/)
