@@ -71,68 +71,34 @@ Constraints:
 這題看似簡單，掃過一次陣列就可以知道最小值在哪裡，但是題目有規定，要利用 O(logN) 的時間複雜度解決，所以這題必須要重新想這題，但題目也有線索，就是 O(logN) + 找最小值 + 已排序 = 這有很高的機率可以用 Binary Search。  
 
 但是 Binary Search 要怎麼找呢？這邊我們先列出 1 2 3 4 5，然後讓旋轉，選轉後切一半，觀察一下狀況：  
-第一種： 1 2 **3** 4 5，前半：(正序)；後半：(正序)，最小值在最左邊  
+第一種： 1 2 **3** 4 5，前半：(正序)；後半：(正序)，最小值在左邊  
 第二種： 2 3 **4** 5 1，前半：(正序)；後半：(亂序)，最小值在右邊  
 第三種： 3 4 **5** 1 2，前半：(正序)；後半：(亂序)，最小值在右邊  
-第四種： 4 5 **1** 2 3，前半：(亂序)；後半：(正序)，最小值在右邊  
+第四種： 4 5 **1** 2 3，前半：(亂序)；後半：(正序)，最小值在左邊  
 第五種： 5 1 **2** 3 4，前半：(亂序)；後半：(正序)，最小值在左邊  
 
 整理一下：
-if (前半正序 && 後半正序): right = mid - 1
-elif (前半正序): left = mid
-else: right = mid - 1
+```
+if (前半正序 && 後半正序): right = mid  
+elif (前半正序): left = mid + 1  
+elif (後半正序): right = mid  
+```
 
-
+再整理一下：  
+```
+if (後半正序): right = mid  
+else left = mid + 1  
+```
 
 **方法 1: For Loop + Two Sum(HashMap) + Set**
 
 * 步驟
-    1. 掃過一次陣列，邊掃的時候把 2 ~ n 的數字做 Two Sum
-        ```python
-        for i, firstNum in enumerate(nums):
-            # twoSum(nums[i+1:], -firstName)
-
-        ```
-    2. 重複的問題，利用 Set 來處理
+    1. 初始化 `left`, `right`。
+    2. 取 `mid = (left + right) // 2`，比較 `nums[left]`、`nums[mid]`、`nums[right]` 之間的關係。
+        - 若 nums[mid] < nums[right]: 移動 `right` 到 `mid` 的位置。
+        - 若其他狀況則移動 `left` 到 `mid + 1` 的位置。
 
 * 複雜度
-    * 時間複雜度: O(N^2)
-    * 空間複雜度: O(N)
+    * 時間複雜度: O(N)
+    * 空間複雜度: O(1)
 
-**方法 2: Sort + Two Pointer**
-
-* 步驟
-    1. 先將陣列做排序
-    2. 用一個 For Loop 搭配 Two Pointer 如下：
-        ```python
-        for i in range(len(nums)-2):
-            left, right = i + 1, len(nums) - 1
-            while left < right:
-                ...
-        ```
-    3. 需要處理重複的部分，重複的部分可以觀察一下何時會重複：
-        - 情況一： 
-            ```python
-            nums = [-1,-1,0,1]
-            # i = 0 時，內圈找到 [0, 1]
-            # i = 1 時，內圈找到 [0, 1]
-            ```
-            所以外圈需要多加一個限制是：
-            ```python
-            if i > 0 and nums[i] == nums[i-1]:
-                continue
-            ```
-        - 情況二：
-            ```python
-            nums = [-1,0,1,1]
-            # i = 0 時，內圈找到 [0, 1] 和 [0, 1]
-            ```
-            內圈也需要判斷，right 需要判斷是否已經有重複的數字了，如下
-            ```python
-            while right > 0 and nums[right] == nums[right+1]:
-                right -= 1
-            ```
-
-* 複雜度
-    * 時間複雜度: O(N^2)
-    * 空間複雜度: O(logN) ~ O(N) # 看選用哪一個排序方法
