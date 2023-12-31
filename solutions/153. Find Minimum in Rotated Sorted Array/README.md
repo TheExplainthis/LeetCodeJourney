@@ -95,10 +95,9 @@ else left = mid + 1
 * 步驟
     1. 初始化 `left`, `right`。
     2. 取 `mid = (left + right) // 2`，比較 `nums[left]`、`nums[mid]`、`nums[right]` 之間的關係。
-        - 若 nums[mid] < nums[right]: 移動 `right` 到 `mid` 的位置。
+        - 若 `nums[mid] < nums[right]`: 移動 `right` 到 `mid` 的位置。
         - 若其他狀況則移動 `left` 到 `mid + 1` 的位置。
 
 * 複雜度
     * 時間複雜度: O(N)
     * 空間複雜度: O(1)
-
