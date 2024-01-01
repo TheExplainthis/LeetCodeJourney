@@ -65,7 +65,6 @@ Constraints:
 * `nums` is sorted and rotated between `1` and `n` times.
 
 
-
 ## 思路
 
 這題看似簡單，掃過一次陣列就可以知道最小值在哪裡，但是題目有規定，要利用 O(logN) 的時間複雜度解決，所以這題必須要重新想這題，但題目也有線索，就是 O(logN) + 找最小值 + 已排序 = 這有很高的機率可以用 Binary Search。  
