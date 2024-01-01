@@ -12,6 +12,7 @@
 
 ## 內容
 **Blind 75**
+(以下題目含順序性，建議從上至下開始解題)
 * Arrays & Hashing
     * [(E) 1. Two Sum](solutions/1.%20Two%20Sum/)
     * [(E) 217. Contains Duplicate](solutions/217.%20Contains%20Duplicate/)
@@ -38,6 +39,8 @@
 
 * Binary Search
     * [(M) 153. Find Minimum in Rotated Sorted Array](solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array/)
+    * [(M) 33. Search in Rotated Sorted Array](solutions/33.%20Search%20in%20Rotated%20Sorted%20Array/)
+
 
 **NeetCode 150**
 * Arrays & Hashing
