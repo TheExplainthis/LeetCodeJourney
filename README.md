@@ -41,6 +41,8 @@
     * [(M) 153. Find Minimum in Rotated Sorted Array](solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array/)
     * [(M) 33. Search in Rotated Sorted Array](solutions/33.%20Search%20in%20Rotated%20Sorted%20Array/)
 
+* Linked List
+    * [(E) 206. Reverse Linked List](solutions/206.%20Reverse%20Linked%20List/)
 
 **NeetCode 150**
 * Arrays & Hashing
