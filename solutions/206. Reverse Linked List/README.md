@@ -67,22 +67,22 @@ Constraints:
 如果要做到反轉，需要有幾個指標才能做到，我們先以上圖為範例，分別是 `prev_prev_node`、`prev_node`、`current_node`、`next_node`、`next_next_node`？  
 1️⃣ 如果只有 1 個指標 (`current_node`)：  
 ```python
-current_node.next = (current_node 的前一個節點)  # ❌ 若沒有指標，就無法指向
+current_node.next = (current_node 的前一個節點)  # ❌ 單向 Linked List 特性在於，只能得知下一個指標位置，無法得知前一個指標位置，所以不可行。
 ```
 
 2️⃣ 如果有 2 個指標 (`prev_node`, `current_node`)：  
 ```python
-current_node.next = prev_node     # 反轉
-prev_node = current_node          # 移動 prev 到 current 的位置
-current_node = ??                 # ❌ next 往 prev 指向之後，就找不到原本的 next 了
+current_node.next = prev_node     # 反轉。
+prev_node = current_node          # 移動 prev 到 current 的位置。
+current_node = ??                 # ❌ next 往 prev 指向之後，就找不到原本的 next 了。
 ```
 
 3️⃣ 如果有 3 個指標 (`prev_node`, `current_node`, `next_node`)：  
 ```python
-current_node.next = prev_node     # 反轉
-prev_node = current_node          # 移動 prev 到 current 的位置
-current_node = next_node          # 移動 current 到 next_node 的位置
-next_node = next_node.next        # 這邊示意 next_node 往後移動一格 -> 但通常移動到第一行 next_node = current_node.next 避免 next_node 是 None 的時候會報錯。
+current_node.next = prev_node     # 反轉。
+prev_node = current_node          # 移動 prev 到 current 的位置。
+current_node = next_node          # 移動 current 到 next_node 的位置。
+next_node = next_node.next        # 這邊示意 next_node 往後移動一格 -> 但通常移動到上方第一行 next_node = current_node.next 避免 next_node 是 None 的時候會報錯（可參考程式碼 approach1.py）。
 ```
 
 到底要幾個指標的問題，通常都是因為節點的 next 再重新定向的時候，導致原本的 next_node 就失去鏈結，然後就永遠找不到了，所以都需要先用一個指標指著他。  
