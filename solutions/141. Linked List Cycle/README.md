@@ -106,7 +106,7 @@ Constraints:
 ❌ Dynamic Programming  
 ❌ Hashing  
 
-根本題無關的：
+根本題無關的：  
 ❌ Bit manipulation: 跟數字無關。  
 ❌ Greedy Approach: 並非找最優解或路徑。  
 ❌ Divide and Conquer: 無法拆分，且問題非獨立。  
