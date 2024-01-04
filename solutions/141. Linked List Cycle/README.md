@@ -57,8 +57,8 @@ Explanation: There is no cycle in the linked list.
 
 Constraints:
 
-* The number of the nodes in the list is in the range `[0, 104]`.
-* `-105 <= Node.val <= 105`
+* The number of the nodes in the list is in the range `[0, 10^4]`.
+* `-10^5 <= Node.val <= 10^5`
 * `pos` is `-1` or a **valid index** in the linked-list.
 
 ## 思路
@@ -139,3 +139,7 @@ Constraints:
 * 複雜度
     * 時間複雜度: O(N)
     * 空間複雜度: O(1)
+
+* 延伸討論
+    * 有沒有可能即使有 cycle 但永遠無法停留在同一節點？
+        * 不會，因為快指標走偶數格、慢指標走奇數格所以在有線步數內一定會撞到。
