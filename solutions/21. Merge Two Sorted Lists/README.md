@@ -68,18 +68,18 @@ Constraints:
 
 **方法 1: Recursive**
 
-先找到他的 Recursive 的函示，意味著「能不能找到一個規律，可以讓他一直做一樣的事情」，以這題來說，合併兩個有序鏈表 `l1`, `l2` 就等於  
-狀況一：若當前 `l1` 目前比 `l2` 小的時候 `l1 + merge(l1.next, l2)`  
-狀況二：其他狀況則 `l2 + merge(l1, l2.next)`  
-狀況三：`l1` 或 `l2` 任一為空時，回傳另一個鏈表的頭部。  
+先找到他的 Recursive 的函示，意味著「能不能找到一個規律，可以讓他一直做一樣的事情」，以這題來說，合併兩個有序鏈表 l1, l2 就等於  
+狀況一：若當前 l1 目前比 l2 小的時候 l1 + merge(l1.next, l2)  
+狀況二：其他狀況則 l2 + merge(l1, l2.next)  
+狀況三：l1 或 l2 任一為空時，回傳另一個鏈表的頭部。  
 
 * 步驟
     1. base case:  
         - 若 `l1` 是 `None` 則返回 `l2`
         - 若 `l2` 是 `None` 則返回 `l1`
     2. recursive case:
-        - 若 `l1 < l2`: 返回 `merge(l1.next, l2)`。
-        - 若 `l2 <= l1`: 返回 `merge(l1, l2.next)`。
+        - 若 `l1 < l2`: 返回 `l1 + merge(l1.next, l2)`。
+        - 若 `l2 <= l1`: 返回 `l2 + merge(l1, l2.next)`。
 
 * 複雜度
     * 時間複雜度: O(N + M)
