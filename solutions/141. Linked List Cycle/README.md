@@ -105,8 +105,6 @@ Constraints:
 一定不行的：  
 ❌ Dynamic Programming  
 ❌ Hashing  
-❌ Stack  
-❌ Queue  
 
 根本題無關的：
 ❌ Bit manipulation: 跟數字無關。  
