@@ -45,6 +45,7 @@
     * [(E) 206. Reverse Linked List](solutions/206.%20Reverse%20Linked%20List/)
     * [(E) 21. Merge Two Sorted Lists](solutions/21.%20Merge%20Two%20Sorted%20Lists/)
     * [(E) 141. Linked List Cycle](solutions/141.%20Linked%20List%20Cycle/)
+    * [(M) 143. Reorder List](solutions/143.%20Reorder%20List/)
 
 **NeetCode 150**
 * Arrays & Hashing
