@@ -49,6 +49,9 @@
     * [(M) 19. Remove Nth Node From End of List](solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List/)
     * [(M) 23. Merge k Sorted Lists](solutions/23.%20Merge%20k%20Sorted%20Lists/)
 
+* Tree
+    * [(E) 226. Invert Binary Tree](solutions/226.%20Invert%20Binary%20Tree/)
+
 **NeetCode 150**
 * Arrays & Hashing
     * [(M) 36. Valid Sudoku](solutions/36.%20Valid%20Sudoku/)
