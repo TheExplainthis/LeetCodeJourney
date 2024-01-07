@@ -52,6 +52,7 @@
 * Tree
     * [(E) 104. Maximum Depth of Binary Tree](solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree/)
     * [(E) 226. Invert Binary Tree](solutions/226.%20Invert%20Binary%20Tree/)
+    * [(E) 100. Same Tree](solutions/100.%20Same%20Tree/)
 
 **NeetCode 150**
 * Arrays & Hashing
