@@ -50,6 +50,7 @@
     * [(M) 23. Merge k Sorted Lists](solutions/23.%20Merge%20k%20Sorted%20Lists/)
 
 * Tree
+    * [(E) 104. Maximum Depth of Binary Tree](solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree/)
     * [(E) 226. Invert Binary Tree](solutions/226.%20Invert%20Binary%20Tree/)
 
 **NeetCode 150**
