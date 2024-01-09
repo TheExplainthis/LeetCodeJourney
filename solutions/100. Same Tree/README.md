@@ -74,7 +74,7 @@ Constraints:
     * 空間複雜度: O(h)   # h 表樹的高度，平均來說為 O(logN)
 
 
-## 方法 2: Recursive
+## 思路&方法 2: Recursive
 
 如果利用 Recursive 來思考，就必須要去思考 Base Case 和 Recursive Case 可以怎麼設計，先從 Recursive Case 來思考，Tree 的題目可以想的是：能不能夠切成左子樹與右子樹去處理。以本題為例：  
 1️⃣ Recursive Case：  
