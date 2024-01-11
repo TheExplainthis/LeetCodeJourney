@@ -59,6 +59,7 @@
     * [(M) 98. Validate Binary Search Tree](solutions/98.%20Validate%20Binary%20Search%20Tree/)
     * [(M) 230. Kth Smallest Element in a BST](solutions/230.%20Kth%20Smallest%20Element%20in%20a%20BST/)
     * [(M) 105. Construct Binary Tree from Preorder and Inorder Traversal](solutions/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/)
+    * [(H) 124. Binary Tree Maximum Path Sum](solutions/124.%20Binary%20Tree%20Maximum%20Path%20Sum/)
 
 **NeetCode 150**
 * Arrays & Hashing
