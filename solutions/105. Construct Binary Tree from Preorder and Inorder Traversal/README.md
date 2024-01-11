@@ -45,7 +45,7 @@ Constraints:
 
 ## 思路
 
-單獨一個 preorder 或 inorder 序列並不能構成唯一個樹，但如果同時給了這兩個序列就可以，而可以觀察一下這兩個序列，以 Example 1 為例，preorder 的第一個節點 `3` 會是根節點，並且對應到 inorder 第 `index=1` 的位置，而 inorder 的特性剛好可以樹一分為二，代表 `index < 1` 的部分都是左子樹、`index > 1` 的部分都是右子樹。
+單獨一個 preorder 或 inorder 序列並不能構成唯一個樹，但如果同時給了這兩個序列就可以，而可以觀察一下這兩個序列，以 Example 1 為例，preorder 的第一個節點 `3` 會是根節點，並且對應到 inorder 第 `index = 1` 的位置，而 inorder 的特性剛好可以樹一分為二，代表 `index < 1` 的部分都是左子樹、`index > 1` 的部分都是右子樹。
 
 所以，我們每一次從 preorder 拿一個節點出來，知道根節點為何，再拿去對應 inorder 序列，知道要從哪裡一分為二，不斷地遞迴下去。
 
