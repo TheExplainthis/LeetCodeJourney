@@ -57,6 +57,8 @@
     * [(M) 235. Lowest Common Ancestor of a Binary Search Tree](solutions/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree/)
     * [(M) 102. Binary Tree Level Order Traversal](solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal/)
     * [(M) 98. Validate Binary Search Tree](solutions/98.%20Validate%20Binary%20Search%20Tree/)
+    * [(M) 230. Kth Smallest Element in a BST](solutions/230.%20Kth%20Smallest%20Element%20in%20a%20BST/)
+    * [(M) 105. Construct Binary Tree from Preorder and Inorder Traversal](solutions/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal/)
 
 **NeetCode 150**
 * Arrays & Hashing
