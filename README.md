@@ -65,6 +65,7 @@
 * Trie
   * [(M) 208. Implement Trie (Prefix Tree)](solutions/208.%20Implement%20Trie%20(Prefix%20Tree)/)
   * [(M) 211. Design Add and Search Words Data Structure](solutions/211.%20Design%20Add%20and%20Search%20Words%20Data%20Structure/)
+  * [(H) 212. Word Search II](solutions/212.%20Word%20Search%20II/)
 
 **NeetCode 150**
 * Arrays & Hashing
