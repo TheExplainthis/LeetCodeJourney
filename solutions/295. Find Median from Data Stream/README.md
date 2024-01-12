@@ -74,6 +74,18 @@ Constraints:
 1️⃣ 第一個 Heap 維持 > 中位數的右半段。  
 2️⃣ 第二個 Heap 維持 < 中位數的左半段。  
 所以 `addNum` 時可以持續保持 O(logN) 的時間複雜度，而 `findMedian` 時可以直接找第一個 Heap 第一個數字以及第二個 Heap 的的一個數字來做處理，就可以在 O(1) 的時間內處理完。  
+舉例來說：如果今天 addNum 順序為：`1,2,3,4,5,6,7,8,9,10` 我們可以來看一下 Heap 的狀況：  
+加入 1: `maxHeap = [1]`, `minHeap = []`  
+加入 2: `maxHeap = [1]`, `minHeap = [2]`
+加入 3: `maxHeap = [2, 1]`, `minHeap = [3]`  
+加入 4: `maxHeap = [2, 1]`, `minHeap = [3, 4]`  
+加入 5: `maxHeap = [3, 1, 2]`, `minHeap = [4, 5]`  
+加入 6: `maxHeap = [3, 1, 2]`, `minHeap = [4, 5, 6]`  
+加入 7: `maxHeap = [4, 3, 2, 1]`, `minHeap = [5, 7, 6]`  
+加入 8: `maxHeap = [4, 3, 2, 1]`, `minHeap = [5, 7, 6, 8]`  
+加入 9: `maxHeap = [5, 4, 2, 1, 3]`, `minHeap = [6, 7, 9, 8]`  
+加入 10: `maxHeap = [5, 4, 2, 1, 3]`, `minHeap = [6, 7, 9, 8, 10]`  
+最後來看的時候，兩個 Heap 的第一個位置，就會是 Median 所在的地方。
 
 
 **方法: 利用兩個 Heap**
