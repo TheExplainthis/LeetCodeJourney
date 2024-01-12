@@ -62,6 +62,9 @@
     * [(H) 124. Binary Tree Maximum Path Sum](solutions/124.%20Binary%20Tree%20Maximum%20Path%20Sum/)
     * [(H) 297. Serialize and Deserialize Binary Tree](solutions/297.%20Serialize%20and%20Deserialize%20Binary%20Tree/)
 
+* Trie
+  * [(M) 208. Implement Trie (Prefix Tree)](solutions/208.%20Implement%20Trie%20(Prefix%20Tree)/)
+
 **NeetCode 150**
 * Arrays & Hashing
     * [(M) 36. Valid Sudoku](solutions/36.%20Valid%20Sudoku/)
