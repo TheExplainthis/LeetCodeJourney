@@ -67,6 +67,9 @@
   * [(M) 211. Design Add and Search Words Data Structure](solutions/211.%20Design%20Add%20and%20Search%20Words%20Data%20Structure/)
   * [(H) 212. Word Search II](solutions/212.%20Word%20Search%20II/)
 
+* Heap
+  * [(H) 295. Find Median from Data Stream](solutions/295.%20Find%20Median%20from%20Data%20Stream/)
+
 **NeetCode 150**
 * Arrays & Hashing
     * [(M) 36. Valid Sudoku](solutions/36.%20Valid%20Sudoku/)
