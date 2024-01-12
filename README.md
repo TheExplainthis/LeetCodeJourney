@@ -72,7 +72,7 @@
 
 * Backtracking
   * [(M) 39. Combination Sum](solutions/39.%20Combination%20Sum/)
-
+  * [(M) 79. Word Search](solutions/79.%20Word%20Search/)
 
 **NeetCode 150**
 * Arrays & Hashing
