@@ -70,6 +70,10 @@
 * Heap
   * [(H) 295. Find Median from Data Stream](solutions/295.%20Find%20Median%20from%20Data%20Stream/)
 
+* Backtracking
+  * [(M) 39. Combination Sum](solutions/39.%20Combination%20Sum/)
+
+
 **NeetCode 150**
 * Arrays & Hashing
     * [(M) 36. Valid Sudoku](solutions/36.%20Valid%20Sudoku/)
