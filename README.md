@@ -78,6 +78,7 @@
   * [(M) 200. Number of Islands](solutions/200.%20Number%20of%20Islands/)
   * [(M) 133. Clone Graph](solutions/133.%20Clone%20Graph/)
   * [(M) 417. Pacific Atlantic Water Flow](solutions/417.%20Pacific%20Atlantic%20Water%20Flow/)
+  * [(M) 207. Course Schedule](solutions/207.%20Course%20Schedule/)
 
 **NeetCode 150**
 * Arrays & Hashing
