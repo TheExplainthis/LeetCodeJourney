@@ -91,7 +91,7 @@ Constraints:
 ## 思路
 
 以範例用演算法思維在想的時候，知道說如果我們先從節點 1 開始走，那麼會知道他有連接節點 2 和節點 4，如果你先做完 Trie 的題型，就會知道說，可以把連接的所有節點都放到 children 裏面，而在無向圖中我們會叫做 neighbors ，因為他們並無父子關係。所以現在狀況是：  
-`visited: { 1 }`, `1.neighbors = { 2, 4 }` 這時後再去遞迴 children 看他們連接誰。  
+`visited: { 1 }`, `1.neighbors = { 2, 4 }` 這時後再去遞迴 neighbors 看他們連接誰。  
 `visited: { 1, 2 }`, `2.neighbors = { 1, 3 }` 再遇去做節點 `4`。  
 `visited: { 1, 2, 4 }`, `4.neighbors = { 1, 3 }` 做到這邊手要抖一下。  
 
