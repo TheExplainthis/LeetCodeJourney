@@ -82,6 +82,9 @@
   * [(M) 323. Number of Connected Components in an Undirected Graph](solutions/323.%20Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph/)
   * [(M) 261. Graph Valid Tree](solutions/261.%20Graph%20Valid%20Tree/)
 
+* Advanced Graphs
+  * [(H) 269. Alien Dictionary](solutions/269.%20Alien%20Dictionary/)
+
 **NeetCode 150**
 * Arrays & Hashing
     * [(M) 36. Valid Sudoku](solutions/36.%20Valid%20Sudoku/)
