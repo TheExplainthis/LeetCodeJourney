@@ -60,7 +60,7 @@ Constraints:
 ## 思路
 
 這題實作起來有點困難，但邏輯不難，用演算法的方法來看的時候，需要保持一個清晰的腦袋，因為他有兩層回圈需要做：  
-Input: words = ["wrt","wrf","er","ett","rftt"]  
+Input: `words = ["wrt","wrf","er","ett","rftt"]  `
 以這個範例來看，我們需要做以下操作：  
 `word1 = wrt, word2 = wrf`，因為前兩個字母都一樣，所以 `t` 在 `f` 前面。  
 `word1 = wrf, word2 = er`，第一個字母就不同，所以 `w` 在 `e` 前面。  
