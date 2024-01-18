@@ -57,7 +57,7 @@ Constraints:
        1. Base Case: 當沒節點可挑時
        2. Recusive Case:
           1. node.left = dfs(起點, 一分為二的點 - 1)
-          2. node.left = dfs(一分為二的點 + 1, 終點)
+          2. node.right = dfs(一分為二的點 + 1, 終點)
 
         
 * 複雜度
