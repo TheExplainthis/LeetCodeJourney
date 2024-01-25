@@ -76,7 +76,7 @@ Constraints:
 所以 `addNum` 時可以持續保持 O(logN) 的時間複雜度，而 `findMedian` 時可以直接找第一個 Heap 第一個數字以及第二個 Heap 的的一個數字來做處理，就可以在 O(1) 的時間內處理完。  
 舉例來說：如果今天 addNum 順序為：`1,2,3,4,5,6,7,8,9,10` 我們可以來看一下 Heap 的狀況：  
 加入 1: `maxHeap = [1]`, `minHeap = []`  
-加入 2: `maxHeap = [1]`, `minHeap = [2]`
+加入 2: `maxHeap = [1]`, `minHeap = [2]`  
 加入 3: `maxHeap = [2, 1]`, `minHeap = [3]`  
 加入 4: `maxHeap = [2, 1]`, `minHeap = [3, 4]`  
 加入 5: `maxHeap = [3, 1, 2]`, `minHeap = [4, 5]`  
