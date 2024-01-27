@@ -22,7 +22,7 @@ GPT 4 翻譯：
 
 Example 1
 
-![Example 1](example1.png)
+![Example 1](example1.jpeg)
 
 ```
 Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
@@ -31,7 +31,7 @@ Output: true
 
 Example 2
 
-![Example 2](example2.png)
+![Example 2](example2.jpeg)
 
 ```
 Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "SEE"
@@ -40,7 +40,7 @@ Output: true
 
 Example 3
 
-![Example 3](example3.png)
+![Example 3](example3.jpeg)
 
 ```
 Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCB"
