@@ -67,4 +67,5 @@ Constraints:
 
 * 複雜度
   * 時間複雜度: O(M * N)
-  * 空間複雜度: O(min(M, N))
+  * 空間複雜度: O(M * N)
+    * 若使用 BFS 則為：O(min(M, N))
