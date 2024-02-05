@@ -85,6 +85,9 @@
 * Advanced Graphs
   * [(H) 269. Alien Dictionary](solutions/269.%20Alien%20Dictionary/)
 
+* 1-D Dynamic Programming
+  * [(E) 70. Climbing Stairs](solutions/70.%20Climbing%20Stairs/)
+
 **NeetCode 150**
 * Arrays & Hashing
     * [(M) 36. Valid Sudoku](solutions/36.%20Valid%20Sudoku/)
