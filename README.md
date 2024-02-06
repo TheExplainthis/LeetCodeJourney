@@ -89,7 +89,7 @@
   * [(E) 70. Climbing Stairs](solutions/70.%20Climbing%20Stairs/)
   * [(M) 198. House Robber](solutions/198.%20House%20Robber/)
   * [(M) 213. House Robber II](solutions/213.%20House%20Robber%20II/)
-
+  * [(M) 5. Longest Palindromic Substring](solutions/5.%20Longest%20Palindromic%20Substring/)
 
 **NeetCode 150**
 * Arrays & Hashing
