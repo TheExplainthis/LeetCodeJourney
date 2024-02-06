@@ -82,7 +82,7 @@ dp[n] = max(dp[n - 1], dp[n - 2] + nums[n])
   * 時間複雜度：O(N)
   * 空間複雜度：O(N)
 
-## 方法 B: Dynamic Programming + Optimize
+## 方法 C: Dynamic Programming + Optimize
 
 上一題 [70. Climbing Stairs](../70.%20Climbing%20Stairs/) 可以知道，其實我們只需要儲存兩個狀態的值就好，不需要真的開一個陣列儲存所有狀態。
 
