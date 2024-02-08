@@ -93,6 +93,7 @@
   * [(M) 647. Palindromic Substrings](solutions/647.%20Palindromic%20Substrings/)
   * [(M) 91. Decode Ways](solutions/91.%20Decode%20Ways/)
   * [(M) 322. Coin Change](solutions/322.%20Coin%20Change/)
+  * [(M) 152. Maximum Product Subarray](solutions/152.%20Maximum%20Product%20Subarray/)
 
 **NeetCode 150**
 * Arrays & Hashing
