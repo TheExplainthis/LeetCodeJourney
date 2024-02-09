@@ -54,17 +54,31 @@ Constraints:
 
 ## 思路：
 
-這題看似要用 Backtracking 把所有的解法找出來，再計算總和，但其實大可不必，因為 Dynamic Programming 特別擅長使用在這種情境。
+同樣是字符比對 DP 的題型，可以比較看看 [5. Longest Palindromic Substring](../5.%20Longest%20Palindromic%20Substring/)，先來看看他的轉移方程式：  
 
-## 方法 A: Dynamic Programming
-
-此時要先找到動態規劃的狀態為何？以回文的題目來看，狀態可以設定為，雖然 `s[i] == s[j]`，但是 `字串 i ~ j` 是不是回文，那就得看 `字串 i + 1 ~ j - 1` 是不是回文。就可以不斷地遞迴下去找。所以：  
-```python
-dp[i][j] = dp[i + 1][j - 1] # if s[i] == s[j]
+**5. Longest Palindromic Substring**
+```
+dp[i][j] = dp[i + 1][j - 1] # if nums[i] == nums[j]
 ```
 
-這時候可以得到一個二維的陣列，這題只要把陣列上所有為 True 的格子加總，就可以得到答案了。
+通常字串比對相關的題目，都會需要利用一個二維陣列來處理，而回文就是自己跟自己比較，所以需要二維陣列，而這題就是兩個字串做比較。而這題可以先定義狀態，一個變數 `i` 指向 `text1`、一個變數 `j` 指向 `text2`。所以 `dp[i][j]` 表示 `text1` 指向第 i 個位置與 `text2` 指向第 j 個位置的最長共同子序列。
+
+轉移方程式為：
+```
+dp[i][j] = dp[i-1][j-1] + 1 # if text1[i] == text2[j]
+dp[i][j] = max(dp[i-1][j], dp[i][j-1])  # 前者表示 text1 的第 i 個不選、後者表示 text2 的第 j 個不選。
+```
+
+dp 最後可以得到以下的陣列。
+```
+   i = a b c d e
+j=
+a      1 1 1 1 1
+c      1 1 2 2 2
+e      1 1 2 2 3
+```
 
 * 複雜度：
-  * 時間複雜度：O(N^2)
-  * 空間複雜度：O(N^2)
+  * 時間複雜度：O(M * N)
+  * 空間複雜度：O(M * N)
+  * M 和 N 分別表示 `text1` 以及 `text2` 的長度。
