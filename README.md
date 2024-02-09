@@ -99,7 +99,7 @@
 
 * 2-D Dynamic Programming
   * [(M) 62. Unique Paths](solutions/62.%20Unique%20Paths/)
-
+  * [(M) 1143. Longest Common Subsequence](solutions/1143.%20Longest%20Common%20Subsequence/)
 
 > 更多題目和分類將持續更新中。
 
