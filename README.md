@@ -97,6 +97,10 @@
   * [(M) 139. Word Break](solutions/139.%20Word%20Break/)
   * [(M) 300. Longest Increasing Subsequence](solutions/300.%20Longest%20Increasing%20Subsequence/)
 
+* 2-D Dynamic Programming
+  * [(M) 62. Unique Paths](solutions/62.%20Unique%20Paths/)
+
+
 > 更多題目和分類將持續更新中。
 
 ## 如何貢獻 How to Contribute
