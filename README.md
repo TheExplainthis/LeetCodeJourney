@@ -95,10 +95,7 @@
   * [(M) 322. Coin Change](solutions/322.%20Coin%20Change/)
   * [(M) 152. Maximum Product Subarray](solutions/152.%20Maximum%20Product%20Subarray/)
   * [(M) 139. Word Break](solutions/139.%20Word%20Break/)
-
-**NeetCode 150**
-* Arrays & Hashing
-    * [(M) 36. Valid Sudoku](solutions/36.%20Valid%20Sudoku/)
+  * [(M) 300. Longest Increasing Subsequence](solutions/300.%20Longest%20Increasing%20Subsequence/)
 
 > 更多題目和分類將持續更新中。
 
