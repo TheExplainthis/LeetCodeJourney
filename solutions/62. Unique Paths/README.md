@@ -23,7 +23,7 @@ GPT 4 翻譯：
 
 ----
 
-Example 1
+Example 1  
 ![Example 1](example1.png)
 ```
 Input: m = 3, n = 7
