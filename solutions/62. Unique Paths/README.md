@@ -23,7 +23,7 @@ GPT 4 翻譯：
 
 ----
 
-Example 1
+Example 1  
 ![Example 1](example1.png)
 ```
 Input: m = 3, n = 7
@@ -57,5 +57,5 @@ dp[i][j] = dp[i-1][j] + dp[i][j-1]
 
 
 * 複雜度：
-  * 時間複雜度：O(N^2)
-  * 空間複雜度：O(N^2)
+  * 時間複雜度：O(M * N)
+  * 空間複雜度：O(M * N)
