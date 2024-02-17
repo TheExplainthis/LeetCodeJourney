@@ -101,6 +101,9 @@
   * [(M) 62. Unique Paths](solutions/62.%20Unique%20Paths/)
   * [(M) 1143. Longest Common Subsequence](solutions/1143.%20Longest%20Common%20Subsequence/)
 
+* Greedy
+  * [(M) 53. Maximum Subarray](solutions/53.%20Maximum%20Subarray/)
+
 > 更多題目和分類將持續更新中。
 
 ## 如何貢獻 How to Contribute
