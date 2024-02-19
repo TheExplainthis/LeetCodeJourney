@@ -105,6 +105,25 @@
   * [(M) 53. Maximum Subarray](solutions/53.%20Maximum%20Subarray/)
   * [(M) 55. Jump Game](solutions/55.%20Jump%20Game/)
 
+* Intervals
+  * [(M) 57. Insert Interval](solutions/57.%20Insert%20Interval/)
+  * [(M) 56. Merge Intervals](solutions/56.%20Merge%20Intervals/)
+  * [(M) 435. Non-overlapping Intervals](solutions/435.%20Non-overlapping%20Intervals/)
+  * [(E) 252. Meeting Rooms](solutions/252.%20Meeting%20Rooms/)
+  * [(M) 253. Meeting Rooms II](solutions/253.%20Meeting%20Rooms%20II/)
+
+* Math & Geometry
+  * [(M) 48. Rotate Image](solutions/48.%20Rotate%20Image/)
+  * [(M) 54. Spiral Matrix](solutions/54.%20Spiral%20Matrix/)
+  * [(M) 73. Set Matrix Zeroes](solutions/73.%20Set%20Matrix%20Zeroes/)
+
+* Bit Manipulation
+  * [(E) 191. Number of 1 Bits](solutions/191.%20Number%20of%201%20Bits/)
+  * [(E) 338. Counting Bits](solutions/338.%20Counting%20Bits/)
+  * [(E) 190. Reverse Bits](solutions/190.%20Reverse%20Bits/)
+  * [(E) 268. Missing Number](solutions/268.%20Missing%20Number/)
+  * [(M) 371. Sum of Two Integers](solutions/371.%20Sum%20of%20Two%20Integers/)
+
 > 更多題目和分類將持續更新中。
 
 ## 如何貢獻 How to Contribute
