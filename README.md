@@ -103,6 +103,7 @@
 
 * Greedy
   * [(M) 53. Maximum Subarray](solutions/53.%20Maximum%20Subarray/)
+  * [(M) 55. Jump Game](solutions/55.%20Jump%20Game/)
 
 > 更多題目和分類將持續更新中。
 
