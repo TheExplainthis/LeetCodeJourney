@@ -106,8 +106,8 @@
   * [(M) 55. Jump Game](solutions/55.%20Jump%20Game/)
 
 * Intervals
+* * [(M) 56. Merge Intervals](solutions/56.%20Merge%20Intervals/)
   * [(M) 57. Insert Interval](solutions/57.%20Insert%20Interval/)
-  * [(M) 56. Merge Intervals](solutions/56.%20Merge%20Intervals/)
   * [(M) 435. Non-overlapping Intervals](solutions/435.%20Non-overlapping%20Intervals/)
   * [(E) 252. Meeting Rooms](solutions/252.%20Meeting%20Rooms/)
   * [(M) 253. Meeting Rooms II](solutions/253.%20Meeting%20Rooms%20II/)
