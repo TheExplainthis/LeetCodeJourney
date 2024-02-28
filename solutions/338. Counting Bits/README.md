@@ -11,7 +11,7 @@ Given an integer `n`, return an array ans of length `n + 1` such that for each i
 
 GPT 4 翻譯：
 
-給定一個整數 `n`，返回一個長度為 `n + 1` 的數組 `ans`，使得對於每個i（`0 <= i <= n`），`ans[i]` 是 `i` 的二進制表示中**`1`的數目**。
+給定一個整數 `n`，返回一個長度為 `n + 1` 的數組 `ans`，使得對於每個i（`0 <= i <= n`），`ans[i]` 是 `i` 的二進制表示中 **`1`的數目**。
 
 ----
 
