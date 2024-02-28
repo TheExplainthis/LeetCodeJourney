@@ -1,6 +1,6 @@
-# Number of 1 Bits
+# Reverse Bits
 
-[題目連結](https://leetcode.com/problems/number-of-1-bits/description/)
+[題目連結](https://leetcode.com/problems/reverse-bits/description/)
 
 ## 題目描述
 原文：
